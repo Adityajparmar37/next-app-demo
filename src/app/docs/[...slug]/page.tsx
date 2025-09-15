@@ -1,5 +1,7 @@
 import React from "react";
 
+// if need to give same ui even to docs main page file then do [[...slug]]
+
 export default function Doc({ params }: { params: { slug: string[] } }) {
   const { slug } = params;
   if (slug.length === 1) {
